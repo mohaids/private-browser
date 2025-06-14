@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output (Vite + Forge)
+.vite/
+.vscode/
+out/
+dist/
+build/
+
+# Electron Forge artifacts
+.forge/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*.local
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Compiled app bundles
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+*.AppImage
+*.snap
+
+# Electron Forge generated
+Make/
